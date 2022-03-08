@@ -1,0 +1,12 @@
+.btn {
+  @extend %flexbox;
+  width: 4.8rem;
+  height: 4.8rem;
+  background: $Very-Dark-Blue;
+  border-radius: 1rem;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

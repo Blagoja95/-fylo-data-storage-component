@@ -2,13 +2,14 @@
   "name": "fylo-data-storage-component-master",
   "version": "1.0.0",
   "description": "## Live site URL",
-  "main": "index.html",
   "scripts": {
-    "test": "npm build index.html"
+    "start": "parcel index.html",
+    "test": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Boka",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
     "parcel": "^2.3.2",
     "sass": "^1.49.9"
   }

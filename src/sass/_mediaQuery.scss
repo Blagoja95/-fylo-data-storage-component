@@ -1,0 +1,41 @@
+@media (min-width: 950px) {
+  body {
+    background: $Very-Dark-Blue url("../images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .component {
+    @extend %flexbox;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-end;
+    margin-top: 20rem;
+  }
+
+  .right-side {
+    width: 55rem;
+    .container {
+      width: 45rem;
+    }
+  }
+
+  .msg {
+    width: 100%;
+  }
+  .storage-space-box {
+    transform: translate(75%, -200%);
+  }
+
+  .storage-space-box::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(0%, 80%);
+    margin-left: -1.5rem;
+    border-width: 2rem;
+    border-style: solid;
+    border-color: #dddbff #dddbff transparent transparent;
+  }
+}

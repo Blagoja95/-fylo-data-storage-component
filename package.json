@@ -1,0 +1,15 @@
+{
+  "name": "fylo-data-storage-component-master",
+  "version": "1.0.0",
+  "description": "## Live site URL",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm build index.html"
+  },
+  "author": "Boka",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.3.2",
+    "sass": "^1.49.9"
+  }
+}

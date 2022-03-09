@@ -1,4 +1,8 @@
-@media (min-width: 950px) {
+@media only screen and (min-width: 950px) {
+  #some-element {
+    display: none;
+  }
+
   body {
     background: $Very-Dark-Blue url("../images/bg-desktop.png");
     background-repeat: no-repeat;

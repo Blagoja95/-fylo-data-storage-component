@@ -20,6 +20,4 @@ README-template.md
 .parcel-cache
 /node_modules
 
-# sass --watch
-main.css
-main.css.map
+
